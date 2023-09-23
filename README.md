@@ -1,5 +1,7 @@
 # Security Expert Samenvatting
 
+<!--  generate table of contents -->
+
 
 ## Week 2 - AppSec - DevSecOps Principles
 
@@ -59,6 +61,36 @@ Security information and event management `(SIEM)` is an approach to security ma
 
 ## Week 9 - InfraSec - AD Security: Azure AD
 
+### Active Directory vs. Microsoft Entra ID (Azure Active Directory)
+
+| | Active Directory | Microsoft Entra ID |
+| --- | --- | --- |
+| Queried using | LDAP over TCP (389) or LDAPS (686) | REST API over HTTP (80) and HTTPS (443) |
+| Authentication protocols | Kerberos | SAML, WS-Federation, OAuth, OpenID Connect |
+| Structure | Organizational Units (OUs) and Group Policy Objects (GPOs) | Flat structure |
+| Federation | Active Directory Federation Services (AD FS) | native federation built-in |
+
+### Identity Models
+
+#### Cloud-only Identity
+
+#### Hybrid Identity
+
+### Microsoft Entra Connect
+
+### Seamless SSO
+
+### Identity Security
+
+#### Password Protection
+
+#### Multi-Factor Authentication (MFA)
+
+#### Conditional Access Policies
+
+### Microsoft Entra ID Governance
+
+
 ## Week 10 - InfraSec - AD Security: APT
 
 
@@ -68,3 +100,13 @@ Security information and event management `(SIEM)` is an approach to security ma
 https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/
 https://www.techtarget.com/searchsecurity/definition/security-information-and-event-management-SIEM
 https://sysdig.com/learn-cloud-native/detection-and-response/edr-vs-xdr-siem-vs-mdr-vs-sor/
+
+### Week 9
+- [New name for Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name)
+- [Determine your cloud identity model](https://learn.microsoft.com/en-us/microsoft-365/enterprise/deploy-identity-solution-identity-model?view=o365-worldwide)
+- [What is Microsoft Entra Connect?](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/connect/whatis-azure-ad-connect)
+- [Choose the right authentication method for your Microsoft Entra hybrid identity solution](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/connect/choose-ad-authn)
+- [Microsoft Entra seamless single sign-on](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/connect/how-to-connect-sso)
+- [Eliminate bad passwords using Microsoft Entra Password Protection](https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad)
+- [How it works: Microsoft Entra multifactor authentication](https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks)
+- [What is Identity Protection?](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)
