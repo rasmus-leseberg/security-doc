@@ -44,6 +44,7 @@ Developers should implement some or all the following controls, depending on the
 
 ### Example of an attack
 **Scenario #1:** A health plan provider's website operator couldn't detect a breach due to a lack of monitoring and logging. An external party informed the health plan provider that an attacker had accessed and modified thousands of sensitive health records of more than 3.5 million patients. As there was no logging or monitoring of the system, the data breach could have been in progress for many years.
+
 ### EDR
 ![edr](./assets/images/edr.png)
 ### SIEM
@@ -78,3 +79,11 @@ Security information and event management `(SIEM)` is an approach to security ma
 - [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
 - [SIEM](https://www.techtarget.com/searchsecurity/definition/security-information-and-event-management-SIEM)
 - [EDR vs XDR SIEM vs MDR vs SOAR](https://sysdig.com/learn-cloud-native/detection-and-response/edr-vs-xdr-siem-vs-mdr-vs-sor/)
+- [SIEM best practices](https://www.digitalguardian.com/blog/what-siem-how-it-works-best-practices-implementation-more)
+- [Best SIEM solutions 2023](https://www.exabeam.com/explainers/siem-tools/siem-solutions/)
+- [Datadog SIEM](https://docs.datadoghq.com/security/cloud_siem/)
+- [Exabeam SIEM](https://www.exabeam.com/siem/introducing-exabeam-siem-a-hyperscale-cloud-native-siem/)
+- [Heimdal Threat Hunting and Action Centre](https://heimdalsecurity.com/enterprise-security/products/threat-hunting-action-center)
+- [IBM Qradar SIEM](https://www.ibm.com/products/qradar-siem)
+- [Best SOAR tools 2023](https://geekflare.com/best-soar-tools/)
+- [Integrating SIEM with CICD](https://floqast.com/engineering-blog/post/integrating-siem-with-ci-cd/)
