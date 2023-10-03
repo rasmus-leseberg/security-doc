@@ -3,9 +3,20 @@
 
 ## Week 2 - AppSec - DevSecOps Principles
 
+- Basic CICD Opfrissing
+- In welke omgevingen zijn DevecOps belangrijk? Banking, Social media, ECommerce
+- Security Policies detection tools, training van dev
+- Shift Left Security
+- Holistic Automation
+- Continuous Security Testing
+- Security as Code
+- Traceability, Auditability, Visibility
+- Continuous Improvement
+
+
 ## Week 3 - AppSec - DevSecOps Practices
 
-## Week 4 - AppSec - DevSecOps Practices SIEM
+## Week 4 - AppSec - DevSecOps Practices SIEM vs SOAR
 ### Overview & Description
 Logging and monitoring can be challenging to test. There isn't much CVE/CVSS data for this category, but detecting and responding to breaches is critical. Still, it can be very impactful for accountability, visibility, incident alerting, and forensics.
 
@@ -32,8 +43,7 @@ Developers should implement some or all the following controls, depending on the
 	- There are commercial and open-source application protection frameworks such as the OWASP ModSecurity Core Rule Set, and open-source log correlation software, such as the Elasticsearch, Logstash, Kibana (ELK) stack, that feature custom dashboards and alerting.
 
 ### Example of an attack
-**Scenario #1:** A health plan provider's website operator couldn't detect a breach due to a lack of monitoring and logging. An external party informed the health plan provider that an attacker had accessed and modified thousands of sensitive health records of more than 3.5 million patients. As there was no logging or monitoring of the system, the data breach could have been in progress since 2013, a period of more than seven years.
-
+**Scenario #1:** A health plan provider's website operator couldn't detect a breach due to a lack of monitoring and logging. An external party informed the health plan provider that an attacker had accessed and modified thousands of sensitive health records of more than 3.5 million patients. As there was no logging or monitoring of the system, the data breach could have been in progress for many years.
 ### EDR
 ![edr](./assets/images/edr.png)
 ### SIEM
@@ -64,7 +74,7 @@ Security information and event management `(SIEM)` is an approach to security ma
 
 ## Sources
 
-#### Week 4
-https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/
-https://www.techtarget.com/searchsecurity/definition/security-information-and-event-management-SIEM
-https://sysdig.com/learn-cloud-native/detection-and-response/edr-vs-xdr-siem-vs-mdr-vs-sor/
+### Week 4
+- [Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+- [SIEM](https://www.techtarget.com/searchsecurity/definition/security-information-and-event-management-SIEM)
+- [EDR vs XDR SIEM vs MDR vs SOAR](https://sysdig.com/learn-cloud-native/detection-and-response/edr-vs-xdr-siem-vs-mdr-vs-sor/)
